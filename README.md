@@ -1,0 +1,5 @@
+This application uses inquirer to ask the user ( the manager ) quistions to build their team Roster. The Manager First inputs their information and then how many engineers and inters are on their team. She then enter the info for each student and the app creates an html file that displays the teams information.
+
+The script works by starting with an inquirer. Here, the manager will input their info and state how many engineers and interns are on the team. The input team size then determines how many times the second inquirer asks for new team memebers. 
+
+The second inquirer then loops through a 3 question loop for each of the members, appending their info as an object to their respective arrays. These arrays of objects then go through a forEach loop to put the epmloyye information into their individual cards and appends that to the array of cards. Finally, the html file is written with the card HTML inputed into the body, and the employee roster is complete. 
